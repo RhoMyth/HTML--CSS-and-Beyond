@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <style>
+      * {
+        margin: 2px;
+        padding: 0px;
+      }
+      .box {
+        border: 2px solid black;
+        height: 130px;
+        width: 80vh;
+      }
+      .box1 {
+        background-color: lightcoral;
+        /* Positioning Example */
+        /* sticky, static, relative, absolute, fixed are the values of position property. */
+
+        position: absolute;
+        left: 12px;
+        top:2px;
+        
+      }
+      .box2 {
+        background-color: lightgreen;
+        top: 34px;
+        left: 56px;
+      }
+      .box3 {
+        background-color: lightseagreen;
+      }
+      .box4 {
+        background-color: lightblue;
+      }
+      .parent {
+        margin: 43px;
+        padding: 34px;
+        border: 3px solid black;
+        /* These are the properties. 
+         Transform, filter or perspective properties can also be used to make an element appear as positioned */
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    We are going to learn about Positioning property in CSS.
+    <div class="parent">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+    </div>
+  </body>
+</html>
+      }
