@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+    <style>
+        *{
+            padding:15px;
+        }
+        .boxes::first-line{
+            background-color: rgb(217, 255, 0);
+        }
+        .box:nth-child(2){
+            color: red;
+        }
+        .boxes *{
+            border: 2px black;
+        }
+        .box:nth-last-child(1){
+            color: rgb(252, 192, 25);
+        }
+        .box:before{
+            content:"RhoMyth is Me!!"
+        }
+        .box:after{
+            content:"Learning something new with a fluency."
+            
+        }
+        ::selection{
+            color: rgb(0, 101, 101);
+            background-color: black;
+        }
+        .box:first-letter{
+            color: peru;
+            font-size: 45px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="boxes">
+        <div class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni assumenda consequuntur consequatur inventore impedit id nulla quos dicta? Cupiditate dolore, officia et odio ut aperiam voluptate itaque, ipsum, fuga repellat ipsa repellendus totam! Ipsa tempora quibusdam minus esse placeat, sint accusantium nihil reiciendis veniam ad impedit doloribus quod ullam cum explicabo quisquam officiis facilis sit animi, doloremque fugit incidunt assumenda provident. Quo accusantium optio recusandae quas veritatis ratione laboriosam incidunt nulla est, in earum et ducimus, alias eligendi id consequuntur. Debitis quasi excepturi, expedita labore ullam aliquid quas aspernatur tempora consequatur numquam eaque cum voluptas laboriosam eos dolore mollitia, obcaecati vero laborum id tempore doloribus atque dicta modi. Natus delectus quae eligendi provident, animi quibusdam adipisci beatae porro illum mollitia, aliquam suscipit?</div>
+        <div class="box">Hey I am box</div>
+        <div class="box">Hey I am box</div>
+        <div class="box">Hey I am box</div>
+    </div>
+    
+</body>
+</html>
