@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations CSS</title>
+    <style>
+        .container{
+            background-color:thistle;
+            height: 50vh;
+            width: 50vw;
+
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color:burlywood;
+            /* These are the Animation functions used for making and having animations in our website */
+
+
+            /* animation-duration: 2s;
+            animation-name: Animation;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-in;
+            animation-delay: 3s;
+            animation-direction:alternate-reverse;
+            animation-play-state: running; */
+
+            animation: Animation 3s ease-in 2s 3 alternate-reverse running;
+            /* This is a shorthand function for the Animation property(name duration timing-function delay iteration-count direction fill-mode) */
+
+        }
+        @keyframes Animation{
+            from{
+
+            }
+            to{
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
