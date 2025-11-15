@@ -16,7 +16,6 @@
   width: 80vw;
   background-color: blue;
 }
-
 @keyframes animateX {
   from {
     left: 0;
