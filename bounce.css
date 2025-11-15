@@ -16,6 +16,7 @@
   width: 80vw;
   background-color: blue;
 }
+/* Adding animations for the bounce animation */
 @keyframes animateX {
   from {
     left: 0;
