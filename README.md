@@ -43,5 +43,3 @@ I upload new files regularly to track my progress as I continue learning through
 
 ---
 
-## 🗂️ Repository Overview
-
